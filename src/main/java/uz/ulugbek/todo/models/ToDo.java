@@ -19,6 +19,8 @@ public class ToDo {
     private String text;
     private boolean completed;
 
+    public ToDo() {}
+
     public ToDo(long id, String text, boolean completed) {
 
         this.id = id;
